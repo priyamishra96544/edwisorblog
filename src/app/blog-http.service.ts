@@ -13,7 +13,7 @@ export class BlogHttpService {
   public allBlogs;
   public currentBlog;
   public baseUrl = 'https://blogapp.edwisor.com/api/v1/blogs';
-  public authToken= 'Y2MwYWM3MzYyODI5Y2Q1Y2Q1MDNlOTU0MzJhOWRlNWY4OTFkNmVhYjg3NGNkN2I5YjUxNGM5Mzk2ZTY4NzU3MDM4MjYzOWJjZTMwY2FkZmI4NzBhZjYxM2Q5NTU0NThkZGIyNzgzNTI4NTcwNTVkZDI4MDA0MGY4NDQ3ZmE1MjMyYzQ0'
+  public authToken= 'ZGE5YWU3NWRlMDk3MjljMDdiZmFiMmFkZGRlMzU0Y2VkOTY1ZWRkZGZhMDIyZWU3YmEwYjk0ODRlNzllOTc5MzdkNTg2NWYyMjhjNWFiNWEzN2QyMGU0NDVhYjRhNzcxODFhNzk3MDZjMWZhM2EyZDE4MDU4NjFiM2JjMjhmZmM3NWU2'
 
 
   constructor(private _http:HttpClient ) {
